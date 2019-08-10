@@ -1,0 +1,290 @@
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Anand Babu-Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+
+
+
+    <style>
+      .bgimg {
+          background-color: #232323;
+      }
+      .bgimg1 {
+          background-image: url("/static/wood.jpg");
+
+
+      }
+       .navbar.transparent.navbar-inverse .navbar-inner {
+         background: rgba(0,0,0,0.4);
+      }
+      body {
+        background-image: url("/static/newblack.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        content: "";
+        display: block;
+        left: 0;
+        z-index: -1;
+        height: 100%;
+
+      }
+      .jumbotron{
+        background: none;
+        padding-bottom: 0;
+      }
+
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      #dp {
+        margin-left: 590px;
+        border-radius: 50%;
+        margin: 10px 0 auto auto;
+      }
+
+      .container1 {
+          width: 80%;
+          height: 600px;
+          margin: auto;
+          padding: auto;
+      }
+
+      .skillImage {
+        border-radius: 50%;
+      }
+
+      .square {
+          width: 25%;
+          float: left;
+          margin: 8px auto;
+          height: 150px;
+      }
+
+      #back2Top {
+          width: 40px;
+          line-height: 40px;
+          overflow: hidden;
+          z-index: 999;
+          display: none;
+          cursor: pointer;
+          -moz-transform: rotate(270deg);
+          -webkit-transform: rotate(270deg);
+          -o-transform: rotate(270deg);
+          -ms-transform: rotate(270deg);
+           transform: rotate(270deg);
+           position: fixed;
+           bottom: 50px;
+           right: 0;
+           background-color: #DDD;
+           color: #555;
+           text-align: center;
+           font-size: 30px;
+           text-decoration: none;
+      }
+      #headings {
+          background-color: rgba(0,0,0,0.7);
+      }
+
+      #back2Top:hover {
+           background-color: #DDF;
+           color: #111;
+      }
+      .sidebar {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+      }
+
+       .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+       }
+       .openbtn:hover {
+        background-color: #444;
+       }
+       #main {
+        transition: margin-left .5s; /* If you want a transition effect */
+        padding: 20px;
+       }
+
+
+
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <!--<link href="album.css" rel="stylesheet">-->
+  </head>
+  <body>
+<main role="main">
+    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">-->
+  <div class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://drive.google.com/file/d/1cFIaLOsCWl_5ONxgYCQVnJGLZYLNOZ99/view?usp=sharing" style="font-color: white;"><font color="white">Resume</font></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects"><font color="white">Projects</font></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills"><font color="white">Skills</font></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <section class="jumbotron text-center">
+        <a id="topOfThePage"><h1 class="jumbotron-heading text-center"><font color="white">Anand Babu</font></h1></a>
+        <font color="white"><p style="font-size:25px">Senior Software Engineer</style></p></font>
+        <p class="lead text-muted"><b><font color="white">Hi I'm Anand! Welcome to my website.<br>
+          Browse my site to see all that I have to offer.</br>
+        </font></b></p>
+        <p>
+          <a href="mailto:anandbabu2201@gmail.com" class="btn btn-secondary my-2 info">Email Me</a>
+          <a href="https://www.linkedin.com/in/anandbabu2201/" class="btn btn-info my-2">Linkedin</a>
+          <a href="https://github.com/anandbabu2201" class="btn btn-success my-2">GitHub</a>
+        </p>
+        <img src="/static/anand.jpg" height="200" id = "dp">  </img>
+</section>
+
+<!--<div class="bgimg1" id="projects">-->
+    <div class="container" id="projects">
+      <h1 class="jumbotron-heading text-center" id="headings"><font color="white">Some of my personal projects</font></h1>
+        <div class="row">
+
+        <div class="col-md-4 mt-5">
+          <a href="https://reactclientpanel-3d4e6.firebaseapp.com/login?redirect=%2F">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="/static/firebase.png" style="min-height: 200px"></img>
+            <div class="card-body">
+              <p class="card-text">Account Info web application (React,redux,firebase)</p>
+                <div class="btn-group"></div>
+            </div>
+          </a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-5">
+          <a href="https://anandbabu2201.github.io/contactmanager/#/">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="/static/contact_m.png" style="min-height: 200px"></img>
+            <div class="card-body">
+              <p class="card-text">contact manager application (React,redux)</p>
+                <div class="btn-group"></div>
+            </div>
+          </a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-5">
+          <a href="/jobs/3.html">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="/static/javaproject.png"  style="max-height: 200px"></img>
+            <div class="card-body">
+              <p class="card-text">Shipment tracking system (JavaEE,JSP,oracle)</p>
+                <div class="btn-group"></div>
+            </div>
+          </a>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4 mt-5">
+          <a href="https://proen.io/">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="/static/proen.png" style="min-height: 200px" ></img>
+            <div class="card-body">
+              <p class="card-text">Meta data driven through application [open source contributer](nodejs,react)</p>
+                <div class="btn-group"></div>
+            </div>
+          </a>
+          </div>
+        </div>
+
+     </div>
+    </div>
+<!--</div>-->
+
+<!--<div class="bgimg1" id="skills">-->
+    <div class = "container1" id="skills">
+    <h1 class="jumbotron-heading-mt-5 text-center" id="headings"><font color="white">Skills</font></h1>
+        <div class = "square">
+          <img src="/static/javas.png" height=100px ></img>
+      </div>
+        <div class = "square">
+            <img src="/static/react.png"  height=100px  ></img>
+        </div>
+        <div class = "square">
+            <img src="/static/node.png" height=100px  ></img>
+        </div>
+        <div class = "square">
+          <img src="/static/html.png" height=100px ></img>
+      </div>
+        <div class = "square">
+            <img src="/static/css3.png" height=100px  ></img>
+        </div>
+        <div class = "square">
+            <img src="/static/java.png" height=100px ></img>
+        </div>
+        <div class = "square">
+          <img src="/static/spring.png" height=100px  ></img>
+      </div>
+      <div class = "square">
+        <img src="/static/mongoDB.jpeg" height=100px ></img>
+      </div>
+        <div class = "square">
+            <img src="/static/mysql.png" height=100px></img>
+        </div>
+    </div>
+<!--</div>-->
+
+<div class ="mt-5 bgimg">
+    <div class = "container" style = "height: 100px;">
+    <footer>
+        <p style="text-align:center; color: white;">
+        <small>&copy; Copyright Anand Babu | FullStack Engineer </small>
+        <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+    </style></p>
+    </footer>
+    </div>
+</div>
+
+</main>
+
+<script src="/static/jquery-3.3.1.min.js"></script>
+<script src="/static/bootstrap.min.js"></script>
+</body>
+</html>
