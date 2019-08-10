@@ -136,14 +136,27 @@
         padding: 20px;
        }
 
-
-
-
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+        .square {
+          width: 25%;
+          float: left;
+          margin: 8px auto;
+          height: 150px;
+       }
       }
+      @media (max-width: 768px) {
+
+        .square {
+          width: 40%;
+          float: left;
+          margin: 8px auto;
+          height: 150px;
+       }
+      }
+
     </style>
     <!-- Custom styles for this template -->
     <!--<link href="album.css" rel="stylesheet">-->
@@ -271,7 +284,7 @@
     </div>
 <!--</div>-->
 
-<div class ="mt-5 bgimg">
+<div class ="mt-5 bgimg" style="clear: left">
     <div class = "container" style = "height: 100px;">
     <footer>
         <p style="text-align:center; color: white;">
